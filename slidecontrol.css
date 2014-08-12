@@ -1,0 +1,105 @@
+.slideControlContainer {
+	height:3px; 
+	background: #999; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #efefef 0%, #ffffff 100%); /* FF3.6+ */*/
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */*/
+	/*background: -webkit-linear-gradient(top, #efefef 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */*/
+	/*background: -o-linear-gradient(top, #efefef 0%,#ffffff 100%); /* Opera 11.10+ */*/
+	/*background: -ms-linear-gradient(top, #efefef 0%,#ffffff 100%); /* IE10+ */*/
+	
+	border-radius:7px;
+	cursor:pointer;
+	width:100%;
+	float:left;
+	margin:5px 10px 0 0;
+}
+	
+.slideControlFill {
+	background-color: #0f9d58; /* Old browsers */
+	/*background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */*/
+	/*background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */*/
+	/*background: -o-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */*/
+	/*background: -ms-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */*/
+	/**/*/
+	display:block;
+	height:3px;
+	border-radius:7px;
+	
+	position:relative;
+	z-index:1;
+	overflow:visible !important;
+	top:-11px;
+}
+	
+.slideControlHandle {
+	display:block; 
+	background: #0f9d58; /* Old browsers */
+	border-radius:15px;
+	width:12px;
+	height:12px;
+	box-shadow:0 0 1px #555;
+	position:absolute;
+	right:0;
+	top:-5px;
+	z-index:5;
+	cursor:pointer;
+	border-radius: 100%;
+}
+
+.ieShadow {
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=0,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=45,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=90,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=180,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=225,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=270,strength=1), 
+  progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=315,strength=1);
+	top:-8px;
+	right:-4px;
+}
+	
+.slideControlInput {
+	width:35px;
+	font-size:1.5em;
+	padding:3px 5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	text-align:center;
+	color:#333;
+	font-weight:bold;
+	visibility: hidden;
+}
+.pin{
+
+content: "";
+position: absolute;
+top: -10px;
+left: 0;
+width: 26px;
+height: 26px;
+
+background-color: #0f9d58;
+border-radius: 50% 50% 50% 0;
+/* -webkit-transform: rotate(-45deg) scale(0) translate(0); */
+/* transform: rotate(-45deg) scale(0) translate(0); */
+/* -webkit-transform: translateZ(0); */
+/* transform: translateZ(0); */
+-webkit-transform: rotate(-45deg) scale(1) translate(17px, -17px); */
+transform: rotate(-45deg) scale(1) translate(17px, -17px);
+color:#fff;
+font-size: 10px;
+}
+.pin_dato{
+content: "";
+text-align: center;
+position: absolute;
+top: -30px;
+left: 0;
+width: 26px;
+height: 26px;
+color:#fff;
+font-size: 15px;
+}
